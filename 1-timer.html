@@ -4,16 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Timer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <script type="module" crossorigin src="/goit-js-hw-10/1-timer.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-B5Qt9EMX.js">
-    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/style-l0sNRNKZ.js">
     <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-A92OCY9B.js">
     <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-CUZofXIC.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/style-D2J6CUn8.css">
   </head>
   <body>
-    <input type="text" id="datetime-picker" />
-    <button disabled type="button" data-start>Start</button>
-    
+    <a href="./index.html" class="back">Back</a>
+    <input type="text" id="datetime-picker" class="timer-input" />
+    <button disabled type="button" data-start class="btn-new-time">
+      Start
+    </button>
+
     <div class="timer">
       <div class="field">
         <span class="value" data-days>00</span>
